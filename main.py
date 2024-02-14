@@ -43,7 +43,7 @@ class Main():
         dataset = self.env_config['dataset'] 
         train_orig = pd.read_csv(f'./data/{dataset}/train.csv', sep=',', index_col=0)
         test_orig = pd.read_csv(f'./data/{dataset}/test.csv', sep=',', index_col=0)
-       
+
         train, test = train_orig, test_orig
 
         if 'attack' in train.columns:

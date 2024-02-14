@@ -5,3 +5,5 @@ runs/
 temp/
 run_copy.sh
 __pycache__
+venv/
+data/
