@@ -17,8 +17,8 @@ from datasets.TimeDataset import TimeDataset
 
 from models.GDN import GDN
 
-from train import train
-from test  import test
+from _train import train
+from _test  import test
 from evaluate import get_err_scores, get_best_performance_data, get_val_performance_data, get_full_err_scores
 
 import sys

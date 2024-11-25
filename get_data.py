@@ -3,7 +3,7 @@ import pandas as pd
 
 def createConnection() -> Engine:
     engine = create_engine(
-        f"postgresql://postgres:postgres@localhost:5433/swat-data"
+        f"postgresql://postgres:postgres@localhost:5432/msl"
     )
 
     return engine
